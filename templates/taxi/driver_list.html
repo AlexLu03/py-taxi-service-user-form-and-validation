@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-
+{% load crispy_forms_tags %}
 {% block content %}
     <h1>Driver List
       <a class="btn btn-primary" href="{% url 'taxi:driver-create' %}">
